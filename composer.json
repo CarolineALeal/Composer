@@ -1,0 +1,19 @@
+{
+    "name": "carol/composer",
+    "description": "Projeto Composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Carol\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "CarolineALeal",
+            "email": "carol_avelino12@hotmail.com"
+        }
+    ],
+    "require": {
+        "mpdf/mpdf": "^8.2"
+    }
+}
